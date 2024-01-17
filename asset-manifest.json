@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.776b92fc.css",
+    "main.js": "/static/js/main.9200a713.js",
+    "static/js/787.ba9acd69.chunk.js": "/static/js/787.ba9acd69.chunk.js",
+    "static/media/projet-img-1.jpg": "/static/media/projet-img-1.900eff444598e58f4da0.jpg",
+    "static/media/projet-img-2.jpg": "/static/media/projet-img-2.de1e1386026eaa4173ec.jpg",
+    "static/media/hero-1.jpg": "/static/media/hero-1.eb2b6d18fa66f676f886.jpg",
+    "static/media/img-skills.svg": "/static/media/img-skills.806c2e837d816e4b43952fa1b3abee3f.svg",
+    "static/media/Satoshi-Regular.otf": "/static/media/Satoshi-Regular.811ccb0b5af1892a71df.otf",
+    "static/media/temoignage-2.jpg": "/static/media/temoignage-2.6a3c3e4e3c41b34d07de.jpg",
+    "static/media/temoignage-1.jpg": "/static/media/temoignage-1.806d2c4ad23ea7603a4b.jpg",
+    "static/media/Star.svg": "/static/media/Star.9400b2d6d162323e6c1b7a05e6745f2a.svg",
+    "index.html": "/index.html",
+    "main.776b92fc.css.map": "/static/css/main.776b92fc.css.map",
+    "main.9200a713.js.map": "/static/js/main.9200a713.js.map",
+    "787.ba9acd69.chunk.js.map": "/static/js/787.ba9acd69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.776b92fc.css",
+    "static/js/main.9200a713.js"
+  ]
+}
