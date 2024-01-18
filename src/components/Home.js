@@ -5,12 +5,12 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Hero from '../assets/hero-1.jpg'
 
-import star from '../assets/Star.svg'
+// import star from '../assets/Star.svg'
 
 function Home() {
 
   return (
-    <div name='Home' className="relative pt-[25vh] sm:pt-[5rem] w-full min-h-screen flex ">
+    <div name='Home' className="relative pt-[15vh] sm:pt-[5rem] w-full min-h-screen flex ">
         <div className='m-auto sm:h-[90vh] max-w-[72rem]  items-center  flex flex-col  sm:gap-0 sm:grid sm:grid-cols-3  '>       
             <div className=' col-span-2 sm:pb-10'>
                 <div>
@@ -30,26 +30,27 @@ function Home() {
                     animate={{y:0 , opacity:1,}}
                     transition={{delay:0.3 , duration:0.3}}
                     className=" text-[#ccd6f6] [font-size:_clamp(1.5rem,1.3vw+1rem,2.6rem)] pb-4 mt-2 sm:mt-8">
-                   Spécialiser dans la création de site web attrayante et efficace pour des clients partout dans le monde entie                   </motion.p>
+                       Spécialiser dans la création de site web attrayante et efficace pour des clients
+                        partout dans le monde entier                    </motion.p>
                    {/* contact link */}
                    <motion.div
                     initial={{y:50 , opacity:0,}}
                     animate={{y:0 , opacity:1,}}
                     transition={{delay:0.4 , duration:0.3}}
                     className=' flex flex-wrap text-white '>
-                     <a href="https://github.com/ouattaraabraham" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
+                     <a target='blank' href="https://www.linkedin.com/in/abraham-ouattara-8ba4a522b/" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
                      <FaLinkedinIn className='mr-2'/>
                       Linkedin
                      </a>
-                     <a href="https://web.facebook.com/AbwebDeveloperDesigne/" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
+                     <a target='blank' href="https://twitter.com/AbrahamOua49761" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
                      <FaTwitter className='mr-2'/>
                      Twitter
                      </a>
-                     <a href="https://www.instagram.com/abrahamcodeur/" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
+                     <a target='blank' href="https://www.instagram.com/abrahamcodeur/" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
                      <AiFillInstagram className='mr-2'/>
                      Instagram
                      </a>
-                     <a href="https://github.com/ouattaraabraham" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
+                     <a target='blank' href="https://github.com/ouattaraabraham" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
                      <FaSquareGithub className='mr-2'/>
                      Github
                      </a>
@@ -63,7 +64,7 @@ function Home() {
                
             </div>
             {/* img */}
-            <motion.div
+            {/* <motion.div
               initial={{y:50 , opacity:0,}}
               animate={{y:0 , opacity:1,}}
               transition={{delay:0.5, duration:0.3}}
@@ -105,7 +106,10 @@ function Home() {
                  </motion.div>
                 <img className='object-cover z-20 w-full h-full object-top lg:object-center	' src={Hero} alt="Hero" />
               </div>
-            </motion.div>    
+            </motion.div>     */}
+            <div className='animate-heroAnimation relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] mt-20 sm:mt-0 max-w-[500px] max-h-[500px] w-[90vw] h-[90vw]  mobil:w-[22rem] mobil:h-[22rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[30vw] lg:h-[30vw] '>
+              <img className=' border-[60%_40%_30%_70%/60%_30%_70%_40%] object-cover z-20 w-full h-full object-top lg:object-center	' src={Hero} alt="Hero" />
+            </div>
         </div>
     </div>
   )

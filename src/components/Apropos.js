@@ -14,13 +14,13 @@ import { FaGithub } from "react-icons/fa";
 function Apropos() {
   return (
     <div
-     id='A propos'  className='relative max-w-[72rem] m-auto pt-[100px] pb-[80px] sm:py-[80px]'>
+     id='À-propos'  className='relative max-w-[72rem] m-auto pt-[100px] pb-[80px] sm:py-[80px]'>
       <motion.h2
        initial={{y:50 , opacity:0}}
       transition={{duration:.4}}
       whileInView={{y:0 , opacity:1}}
       viewport={{once:true}}
-       className='font-bold text-center text-[#ccd6f6] text-2xl sm:text-4xl mb-[50px]'><span className='text-[#0086ed] text-xl sm:text-3xl '>0.1 </span>Apropos</motion.h2>
+       className='font-bold text-center text-[#ccd6f6] text-2xl sm:text-4xl mb-[50px]'>À-propos </motion.h2>
 
       <motion.div
        initial={{y:50 , opacity:0}}
@@ -30,7 +30,7 @@ function Apropos() {
        className='sm:grid grid-cols-2 items-center'>
         <div className='pb-10'>
             <p className='mb-4 lg:text-lg'>
-            Bienvenue dans mon monde de développeur Web professionnel. Je m'appelle Abraham Ouattara et je suis un développeur expérimenté spécialisé dans la création de solution frontend de haute qualité, efficace et visuellement attrayante.
+            Bienvenue dans mon monde de développeur Web professionnel. Je m'appelle Abraham et je suis un développeur expérimenté spécialisé dans la création de solution frontend de haute qualité, efficace et visuellement attrayante.
             </p>
             <p className='mb-4 lg:text-lg'>
             Grâce à mon expertise, j'aide les entreprises et les organisations à atteindre leurs objectifs en ligne et à se démarquer dans le paysage numérique concurrentiel.

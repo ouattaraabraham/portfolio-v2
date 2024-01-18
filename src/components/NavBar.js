@@ -4,10 +4,10 @@ import star from '../assets/Star.svg'
 import { motion , AnimatePresence } from "framer-motion"
 import { HiOutlineBars3CenterLeft } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
-import { FaTwitter,FaSquareGithub } from "react-icons/fa6";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
+// import { FaTwitter,FaSquareGithub } from "react-icons/fa6";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
 
 
 
@@ -25,9 +25,10 @@ function NavBar() {
 
     const links=[
         {id:0,link:'Home'},
-        {id:1,link:'A propos'},
+        {id:1,link:'À-propos'},
         {id:2,link:'Project'},
-        {id:3,link:'Contact'},
+        {id:3,link:'Témmoignages'},
+        {id:4,link:'Contact'},
     ]
 
     useEffect(()=>{
@@ -55,9 +56,8 @@ function NavBar() {
 
            <ul className='hidden md:flex gap-8 text-[#ccd6f6] pr-[14px]'>
                 { links.map(({id,link})=>{
-                     const newId= id===0 ? '0.' : '0.' +id
                   return (<li  className='tracking-[.07em] font-montrealI font-semibold py-5  hover:cursor-pointer hover:scale-90' key={id}>
-                          <Link to={link} smooth duration={500}><span className='text-[#0086ed] text-xs'>{newId}  </span>{link}</Link>
+                          <Link to={link} smooth duration={500}>{link}</Link>
                          </li>)
                 }
               
@@ -82,16 +82,19 @@ function NavBar() {
             <ul className='text-center w-full '>
                  {/* <div className='w-full h-[1px] bg-white'></div> */}
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
-                <Link onClick={fcOpen}  to='Home' smooth duration={500}><h3 className='text-[#0086ed] '>0. </h3>Home</Link>
+                <Link onClick={fcOpen}  to='Home' smooth duration={500}>Home</Link>
                  </li>
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
-                <Link onClick={fcOpen}  to='A propos' smooth duration={500}><h3 className='text-[#0086ed] '>0.1 </h3>Apropos</Link>
+                <Link onClick={fcOpen}  to='À-propos' smooth duration={500}>À-propos </Link>
                  </li>
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
-                <Link onClick={fcOpen}  to='Project' smooth duration={500}><h3 className='text-[#0086ed]'>0.2 </h3>Project</Link>
+                <Link onClick={fcOpen}  to='Project' smooth duration={500}>Project</Link>
                  </li>
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
-                <Link onClick={fcOpen}  to='Contact' smooth duration={500}><h3 className='text-[#0086ed]'>0.3 </h3>Contact</Link>
+                <Link onClick={fcOpen}  to='Témmoignages' smooth duration={500}>Témoignages</Link>
+                 </li>
+                 <li className='py-4  cursor-pointer hover:scale-90 ' >
+                <Link onClick={fcOpen}  to='Contact' smooth duration={500}>Contact</Link>
                  </li>
             </ul>
 

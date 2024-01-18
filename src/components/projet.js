@@ -5,13 +5,13 @@ import ImgProjet2 from "../assets/projet-img-2.jpg"
 
 function projet() {
   return (
-    <div id='Project'  className='relative max-w-[72rem] m-auto py-[50px] sm:py-[80px]'>
+    <div id='Project'  className='relative max-w-[72rem] m-auto pt-[50px] sm:pt-[80px] sm:pb-[20px]'>
       <motion.h1
       initial={{y:50 , opacity:0}}
       transition={{duration:.4}}
       whileInView={{y:0 , opacity:1}}
       viewport={{once:true}}
-       className='font-bold text-center text-[#ccd6f6] text-2xl sm:text-4xl  mb-[50px] lg:mb-[70px] '><span className='text-[#0086ed] text-xl sm:text-3xl '>0.2 </span>Quelques projets réalisés</motion.h1>
+       className='font-bold text-center text-[#ccd6f6] text-2xl sm:text-4xl  mb-[50px] lg:mb-[70px] '>Projets</motion.h1>
 
       <div
        >
@@ -45,9 +45,8 @@ function projet() {
             <div className='text-center sm:text-start py-7'>
                 <h2 className='font-bold pb-6 text-[#ccd6f6] text-lg lg:text-2xl'> Event-fiesta</h2>
                 <p className='pb-6 lg:text-lg'>
-                Event-fiesta est une application permettant 
-                de trouver des lieux pour son événement (team building, soirée privée, mariage, etc.) Selon les critères, la typographie du lieu souhaité               
-                </p>
+                 Event-fiesta est une application qui permet de trouver des lieux pour son événement (séminaire, team building, soirée privée, mariage, etc.) selon les critères, la typographie du lieu souhaité.
+                 J'ai utilisé les technologies telles que react, tailwind, redux.    </p>
                 <a target='blank' href='https://ouattaraabraham.github.io/event-fiesta/'>
                   <button className='text-white transition duration-300 ease-in-out bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] px-12 py-2 text-sm'>
                       EXPLORER
