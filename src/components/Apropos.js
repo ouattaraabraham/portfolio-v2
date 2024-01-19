@@ -30,15 +30,13 @@ function Apropos() {
        className='sm:grid grid-cols-2 items-center'>
         <div className='pb-10'>
             <p className='mb-4 lg:text-lg'>
-            Bienvenue dans mon monde de développeur Web professionnel. Je m'appelle Abraham et je suis un développeur expérimenté spécialisé dans la création de solution frontend de haute qualité, efficace et visuellement attrayante.
-            </p>
+            Bienvenue dans mon monde de développeur Web professionnel. Je m'appel Abraham et je suis un développeur expérimenté et spécialisé dans la création de solutions frontend de haute qualités, efficaces et visuellement attrayantes.            </p>
             <p className='mb-4 lg:text-lg'>
-            Grâce à mon expertise, j'aide les entreprises et les organisations à atteindre leurs objectifs en ligne et à se démarquer dans le paysage numérique concurrentiel.
-            </p>
+            Grâce à mon expertise, j'aide les entreprises et les organisations à atteindre leurs objectifs en ligne et à se démarquer dans le paysage numérique concurrentiel.            </p>
             {/* Technologie using */}
             <div className='mt-5 '>
                 <h2 className='lg:text-lg'>
-                 Voici quelques technologies avec lesquelles j’ai travaillé récemment :                </h2>
+                Voici quelques technologies avec lesquelles j’ai travaillé récemment :                  </h2>
                 <div className='flex items-center mt-5 text-[#ccd6f6]'>
                     <div className='mr-12'>
                         <p className='flex items-center mb-2.5'>

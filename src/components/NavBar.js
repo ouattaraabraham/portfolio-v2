@@ -26,8 +26,8 @@ function NavBar() {
     const links=[
         // {id:1,link:'Home'},
         {id:0,link:'À propos'},
-        {id:1,link:'Project'},
-        {id:2,link:'Témmoignages'},
+        {id:1,link:'Projects'},
+        {id:2,link:'Témoignages'},
         {id:3,link:'Contact'},
     ]
 
@@ -88,7 +88,7 @@ function NavBar() {
                 <Link onClick={fcOpen}  to='À propos' smooth duration={500}>À propos </Link>
                  </li>
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
-                <Link onClick={fcOpen}  to='Project' smooth duration={500}>Project</Link>
+                <Link onClick={fcOpen}  to='Projects' smooth duration={500}>Projects</Link>
                  </li>
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
                 <Link onClick={fcOpen}  to='Témmoignages' smooth duration={500}>Témoignages</Link>

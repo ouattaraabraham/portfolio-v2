@@ -5,7 +5,7 @@ import ImgProjet2 from "../assets/projet-img-2.jpg"
 
 function projet() {
   return (
-    <div id='Project'  className='relative max-w-[72rem] m-auto pt-[50px] sm:pt-[80px] sm:pb-[20px]'>
+    <div id='Projects'  className='relative max-w-[72rem] m-auto pt-[50px] sm:pt-[80px] sm:pb-[20px]'>
       <motion.h1
       initial={{y:50 , opacity:0}}
       transition={{duration:.4}}
@@ -26,7 +26,7 @@ function projet() {
                 <h2 className='font-bold pb-6 text-[#ccd6f6] text-lg lg:text-2xl'> Lux hôtel </h2>
                 <p className='pb-6 lg:text-lg'>
                 Lux hôtel est un site d'hôtel que j'ai créé en utilisant les technologies telles
-                 que react js , taiwind css , le site contient plusieurs pages, accueil, réservation, et contacter .                </p>
+                 que : react js, taiwind css, le site contient plusieurs pages : accueil, réservation, et contacter .                </p>
                <a target='blank' href=' https://ouattaraabraham.github.io/lux-hotel/'>
                <button className='text-white transition duration-300 ease-in-out bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] px-12 py-2 text-sm'>
                     EXPLORER
@@ -46,7 +46,7 @@ function projet() {
                 <h2 className='font-bold pb-6 text-[#ccd6f6] text-lg lg:text-2xl'> Event-fiesta</h2>
                 <p className='pb-6 lg:text-lg'>
                  Event-fiesta est une application qui permet de trouver des lieux pour son événement (séminaire, team building, soirée privée, mariage, etc.) selon les critères, la typographie du lieu souhaité.
-                 J'ai utilisé les technologies telles que react, tailwind, redux.    </p>
+                 J'ai utilisé les technologies telles que : react, tailwind, redux.    </p>
                 <a target='blank' href='https://ouattaraabraham.github.io/event-fiesta/'>
                   <button className='text-white transition duration-300 ease-in-out bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] px-12 py-2 text-sm'>
                       EXPLORER

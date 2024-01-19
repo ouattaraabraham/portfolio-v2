@@ -36,8 +36,7 @@ function Home() {
                     animate={{y:0 , opacity:1,}}
                     transition={{delay:0.3 , duration:0.3}}
                     className=" text-[#ccd6f6] [font-size:_clamp(1.5rem,1.3vw+1rem,2.6rem)] pb-4 mt-2 sm:mt-8">
-                       Spécialiser dans la création de site web attrayante et efficace pour des clients
-                        partout dans le monde entier                    </motion.p>
+                       Spécialisé dans la création de sites web attrayants et efficaces pour des clients partout dans le monde.                    </motion.p>
                    {/* contact link */}
                    <motion.div
                     initial={{y:50 , opacity:0,}}
