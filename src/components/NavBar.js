@@ -24,11 +24,11 @@ function NavBar() {
     }
 
     const links=[
-        {id:0,link:'Home'},
-        {id:1,link:'À-propos'},
-        {id:2,link:'Project'},
-        {id:3,link:'Témmoignages'},
-        {id:4,link:'Contact'},
+        // {id:1,link:'Home'},
+        {id:0,link:'À propos'},
+        {id:1,link:'Project'},
+        {id:2,link:'Témmoignages'},
+        {id:3,link:'Contact'},
     ]
 
     useEffect(()=>{
@@ -81,11 +81,11 @@ function NavBar() {
 
             <ul className='text-center w-full '>
                  {/* <div className='w-full h-[1px] bg-white'></div> */}
-                 <li className='py-4  cursor-pointer hover:scale-90 ' >
+                 {/* <li className='py-4  cursor-pointer hover:scale-90 ' >
                 <Link onClick={fcOpen}  to='Home' smooth duration={500}>Home</Link>
-                 </li>
+                 </li> */}
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
-                <Link onClick={fcOpen}  to='À-propos' smooth duration={500}>À-propos </Link>
+                <Link onClick={fcOpen}  to='À propos' smooth duration={500}>À propos </Link>
                  </li>
                  <li className='py-4  cursor-pointer hover:scale-90 ' >
                 <Link onClick={fcOpen}  to='Project' smooth duration={500}>Project</Link>

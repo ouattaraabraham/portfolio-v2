@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        'mobil-sm': '320px',
         'mobil': '480px',
         'sm': '640px',  
         'md': '768px',  

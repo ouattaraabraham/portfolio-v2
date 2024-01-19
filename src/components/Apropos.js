@@ -14,13 +14,13 @@ import { FaGithub } from "react-icons/fa";
 function Apropos() {
   return (
     <div
-     id='À-propos'  className='relative max-w-[72rem] m-auto pt-[100px] pb-[80px] sm:py-[80px]'>
+     id='À propos'  className='relative max-w-[72rem] m-auto pt-[100px] pb-[80px] sm:py-[80px]'>
       <motion.h2
        initial={{y:50 , opacity:0}}
       transition={{duration:.4}}
       whileInView={{y:0 , opacity:1}}
       viewport={{once:true}}
-       className='font-bold text-center text-[#ccd6f6] text-2xl sm:text-4xl mb-[50px]'>À-propos </motion.h2>
+       className='font-bold text-center text-[#ccd6f6] text-2xl sm:text-4xl mb-[50px]'>À propos </motion.h2>
 
       <motion.div
        initial={{y:50 , opacity:0}}

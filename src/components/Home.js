@@ -1,18 +1,24 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import { MdEmail } from "react-icons/md";
 import { FaTwitter,FaSquareGithub } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Hero from '../assets/hero-1.jpg'
+import Hero from '../assets/hero-4.png'
 
 // import star from '../assets/Star.svg'
 
 function Home() {
 
   return (
-    <div name='Home' className="relative pt-[15vh] sm:pt-[5rem] w-full min-h-screen flex ">
-        <div className='m-auto sm:h-[90vh] max-w-[72rem]  items-center  flex flex-col  sm:gap-0 sm:grid sm:grid-cols-3  '>       
-            <div className=' col-span-2 sm:pb-10'>
+    <div name='Home' className="relative sm:pt-[5rem] w-full min-h-screen flex ">
+        <div className='m-auto sm:h-[90vh] max-w-[72rem]  items-center  flex flex-col  sm:gap-0 sm:grid sm:grid-cols-3  '> 
+            {/* hero */}
+            <div className=' mt-20 mb-10 sm:my-0 sm:order-2 animate-heroAnimation relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] max-w-[500px] max-h-[500px] w-[90vw] h-[90vw] mobil-sm:w-[18rem] mobil-sm:h-[18rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[22rem] lg:h-[22rem] '>
+              <img className=' border-[60%_40%_30%_70%/60%_30%_70%_40%] object-cover z-20 w-full h-full object-top' src={Hero} alt="Hero" />
+            </div>  
+
+            <div className=' col-span-2 sm:order-1 sm:pb-10'>
                 <div>
                  <div >
                    <motion.p
@@ -38,6 +44,10 @@ function Home() {
                     animate={{y:0 , opacity:1,}}
                     transition={{delay:0.4 , duration:0.3}}
                     className=' flex flex-wrap text-white '>
+                     <a target='blank' href="mailto:abraham.dev2024@gmail.com" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
+                     <MdEmail className='mr-2'/>
+                      E-mail
+                     </a>
                      <a target='blank' href="https://www.linkedin.com/in/abraham-ouattara-8ba4a522b/" className='flex items-center h-fit px-2 py-1 mr-2 mt-2 sm:mt-2 rounded-lg bg-[#0086ed] hover:bg-[rgba(0,134,237,0.8)] transition duration-300 ease-in-out'>
                      <FaLinkedinIn className='mr-2'/>
                       Linkedin
@@ -107,9 +117,12 @@ function Home() {
                 <img className='object-cover z-20 w-full h-full object-top lg:object-center	' src={Hero} alt="Hero" />
               </div>
             </motion.div>     */}
-            <div className='animate-heroAnimation relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] mt-20 sm:mt-0 max-w-[500px] max-h-[500px] w-[90vw] h-[90vw]  mobil:w-[22rem] mobil:h-[22rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[30vw] lg:h-[30vw] '>
+
+
+            {/* <div className='animate-heroAnimation relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] mt-20 sm:mt-0 max-w-[500px] max-h-[500px] w-[90vw] h-[90vw]  mobil:w-[22rem] mobil:h-[22rem] sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[30vw] lg:h-[30vw] '>
               <img className=' border-[60%_40%_30%_70%/60%_30%_70%_40%] object-cover z-20 w-full h-full object-top lg:object-center	' src={Hero} alt="Hero" />
-            </div>
+            </div> */}
+
         </div>
     </div>
   )
